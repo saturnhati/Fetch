@@ -1,0 +1,22 @@
+{
+  "name": "u2-w7-d4-fetch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saturnhati/U2-W7-D4-FETCH.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saturnhati/U2-W7-D4-FETCH/issues"
+  },
+  "homepage": "https://github.com/saturnhati/U2-W7-D4-FETCH#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
