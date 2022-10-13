@@ -2,6 +2,7 @@ const express = require('express')
 const cors = require('cors');
 const app = express()
 const port = 3000
+const myJson = require('./pkmn.json')
 
 app.use(cors());
 
@@ -61,6 +62,10 @@ let pokemonsString = JSON.stringify(pokemons)
 
 app.get('/pokemons', (req, res) => {
     res.send(pokemonsString)
+})
+
+app.get('/myJson', (req, res) => {
+    res.send(myJson)
 })
 
 app.listen(port, () => {

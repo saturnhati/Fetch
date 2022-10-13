@@ -9,14 +9,20 @@ async function displayArray() {
 
 async function displayPokemon() {
     let pkmns = [];
-    let response = await fetch('https://pokeapi.co/api/v2/pokemon/?offset=0&limit=151')
-    let res = await response.json();
-    pkmns = res.results
+    let response = await fetch('http://localhost:3000/myJson')
+    pkmns = await response.json();
     for (let pkmn of pkmns) {
         let container = document.querySelector('.container')
         let card = document.createElement('div')
-        card.innerHTML = `<div class="card">
-                          <h3>${pkmn.name}</h3>
+        card.classList.add('card')
+        card.classList.add('border')
+        card.classList.add('border-3')
+        card.classList.add('border-dark')
+        card.style.width = '18rem'
+        card.innerHTML = `<img src="${pkmn.img}" class="card-img-top" alt="...">
+                          <div class="card-body">
+                          <h2 class="fs-3 my-1">${pkmn.id} - ${pkmn.name}</h2>
+                          <p class="card-text">Type: ${pkmn.type}</p>
                           </div>`
         container.appendChild(card)
         console.log(pkmn.name)

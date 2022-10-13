@@ -1,0 +1,57 @@
+[
+    {
+        "id": "001",
+        "name": "Bulbasaur",
+        "type": "grass/poison",
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+    },
+    {
+        "id": "002",
+        "name": "Ivysaur",
+        "type": "grass/poison",
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
+    },
+    {
+        "id": "003",
+        "name": "Venusaur",
+        "type": "grass/poison",
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+    },
+    {
+        "id": "004",
+        "name": "Charmander",
+        "type": "fire",
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+    },
+    {
+        "id": "005",
+        "name": "Charmeleon",
+        "type": "fire",
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+    },
+    {
+        "id": "006",
+        "name": "Charizard",
+        "type": "fire/flying",
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
+    },
+    {
+        "id": "007",
+        "name": "Squirtle",
+        "type": "water",
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
+    },
+    {
+        "id": "008",
+        "name": "Wartortle",
+        "type": "water",
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png"
+    },
+    {
+        "id": "009",
+        "name": "Blastoise",
+        "type": "water",
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
+    }
+
+]
